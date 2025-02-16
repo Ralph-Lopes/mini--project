@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,400;1,100&display=swap');
+
+*
+{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-container
+{
+    margin: auto;
+    justify-content: space-between;
+   background: linear-gradient(to right,rgb(0, 234, 255),rgb(0, 72, 255))
+;
+    padding: 5px 0px;
+    
+}
+
+.nav-para
+{
+    color: aliceblue;
+}
+
+.nav-elements
+{
+    white-space: nowrap;
+    padding-top: 18px;
+}
+
+.section-one-container
+{
+    display: flex;
+    flex-direction: column;
+ padding-left: 20px;
+}
+
+.flight-details-section
+{
+    display: flex;
+    flex-direction: column;
+  margin: 20px;
+ border: 2px solid black;
+ justify-content: space-around;
+ background-color: white;
+}
+
+.drop-box
+{
+    color: rgb(0, 72, 255);
+    border: 1px solid rgb(0, 72, 255);
+    background-color: aliceblue;
+    padding: 5px 30px;
+}
+
+.source-container
+{
+    border-left: 1px solid #afe4ff;
+    border-top: 1px solid #afe4ff;
+    border-bottom: 1px solid #afe4ff;
+    .display-2
+    {
+        display: none;
+    }
+}
+
+.source-container:hover
+{
+    
+    border: 1px solid rgb(5, 237, 5);
+   
+   
+    .display-2
+    {
+         display: inline;
+    }
+    .display-1
+    {
+        display: none;
+    } 
+}
+
+
+/* Dark overlay effect */
+
+
