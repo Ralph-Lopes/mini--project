@@ -26,6 +26,13 @@
 {
     white-space: nowrap;
     padding-top: 18px;
+    &:hover
+{
+    transition-delay: 300ms;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+   
+}
 }
 
 .section-one-container
@@ -81,6 +88,19 @@
 }
 
 
+.btn-head
+{
+    border: none;
+    padding:  5px 40px;
+    border-radius: 10px;
+    background-color: rgb(5, 120, 131);
+    color: white;
+}
+
+
 /* Dark overlay effect */
 
-
+/* .nav-bar
+{
+    transition: nav-elements 40ms;
+} */
