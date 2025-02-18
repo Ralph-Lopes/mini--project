@@ -13,10 +13,25 @@
   padding: 5px 0px;
 }
 
-.nav-para {
-  color: aliceblue;
+.nav-bar 
+  {
+    white-space: nowrap;
+    padding-top: 18px;
+    color: white;
+
+
 }
 
+
+
+.btn-head
+{
+    border: none;
+    padding:  5px 40px;
+    border-radius: 10px;
+    background-color: rgb(5, 120, 131);
+    color: white;
+}
 
 .section-one-container {
   display: flex;
@@ -59,6 +74,17 @@
   .display-1 {
     display: none;
   }
+}
+
+.nav-elements:hover
+{
+  
+  
+      transition-delay: 300ms;
+      border-bottom: 2px solid white;
+      margin-bottom: 40px;
+    
+  
 }
 /* .source-container:hover
 {
